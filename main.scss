@@ -18,9 +18,10 @@ header {
         align-items: center;
 
         a {
-            header nav a img {
+            img {
                 width: 200px;
-                filter: invert(1);
+               filter: invert(1);
+            }
         }
 
         ul {
@@ -90,5 +91,4 @@ header {
     img{
         width: 100%;
     }
-}
 }

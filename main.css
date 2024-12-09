@@ -13,21 +13,21 @@ header nav {
   justify-content: space-around;
   align-items: center;
 }
-header nav a header nav a img {
+header nav a img {
   width: 200px;
   filter: invert(1);
 }
-header nav a ul {
+header nav ul {
   display: flex;
   gap: 30px;
   color: #fff;
   list-style: none;
 }
-header nav a ul li {
+header nav ul li {
   font-size: 20px;
   position: relative;
 }
-header nav a ul li:after {
+header nav ul li:after {
   background-color: #fff;
   width: 0%;
   height: 3px;
@@ -36,11 +36,12 @@ header nav a ul li:after {
   top: 0;
   bottom: 0;
 }
-header nav a ul li:hover {
+header nav ul li:hover {
   color: #fff;
   cursor: pointer;
 }
-header .hadding {
+
+.hadding {
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -51,28 +52,29 @@ header .hadding {
   background-size: contain;
   background-repeat: no-repeat;
 }
-header .hadding h1 {
+.hadding h1 {
   color: #10ac84;
   font-size: 4rem;
 }
-header .hadding h1:hover {
+.hadding h1:hover {
   color: #fff;
   transition: 0.7s ease-in-out;
 }
-header .hadding h1:hover:after {
+.hadding h1:hover:after {
   content: "add new";
 }
-header .hadding h1:hover:after:hover {
+.hadding h1:hover:after:hover {
   color: red;
   cursor: pointer;
 }
-header .hadding p {
+.hadding p {
   color: #9b2424;
   font-size: 3rem;
 }
-header .hadding p:hover {
+.hadding p:hover {
   color: #fff;
 }
-header .banner img {
+
+.banner img {
   width: 100%;
 }/*# sourceMappingURL=main.css.map */
