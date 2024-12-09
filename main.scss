@@ -43,8 +43,9 @@ header {
                     bottom: 0;
                 }
                 &:hover{
-                    color: #fff;
+                    color: #a57318;
                     cursor: pointer;
+                    transition: 0.5s;
                   
                 }
             }
@@ -53,38 +54,7 @@ header {
     }
 
 }
-.hadding{
-    height: 100vh;
-    width: 100vw;
-    @include flex-pro;
-    background-image: url(../scss/img/banner-bg-1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    h1{
-        color: #10ac84;
-        font-size: 2 + 2rem;
-        &:hover{
-            color: #fff; 
-            transition: 0.7s ease-in-out;
-            &:after{
-                content: "add new";
-                &:hover{
-                    color: red;
-                    cursor: pointer;
-                }
-            }
-        }
-    }
-    
-    p{
-        color: #9b2424;
-        font-size: 2 + 1rem;
-        &:hover{
-            color: #fff;
-        }
-    }
-   
-}
+
 
 
 .banner {
