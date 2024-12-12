@@ -7,7 +7,12 @@
     padding: 0;
 }
 
-
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+    width: 100%;
+}
 header {
     background-color: $bg-color;
     padding: 20px 0px;
@@ -62,3 +67,44 @@ header {
         width: 100%;
     }
 }
+
+.service{
+    width: 100%;
+    float: left;
+    background: #7fffd4;
+  
+   .service-box{
+    width:33%;
+    float: left;
+    padding: 15px;
+
+    .service-col {
+        background: black;
+        color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        font-family: sans-serif;
+        .service-content{
+
+            h2 {
+                font-size: 22px;
+                line-height: 40px;
+                letter-spacing: 0.8px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 17px;
+                line-height: 25px;
+            }
+            p:nth-child(3) {
+                font-size: 17px;
+                line-height: 25px;
+                margin-top: 20px;
+            }
+        }
+   
+    }
+  }
+  
+  }
